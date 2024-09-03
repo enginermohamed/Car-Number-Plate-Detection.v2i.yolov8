@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Plate licence']
+
+roboflow:
+  workspace: car-plate-detection-d9wx0
+  project: car-number-plate-detection-l7hof
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/car-plate-detection-d9wx0/car-number-plate-detection-l7hof/dataset/2
